@@ -17,3 +17,4 @@ cartabase::~cartabase()
 	delete s_color;
 	delete i_numTotalDeCartas;
 }
+lucas se la come
