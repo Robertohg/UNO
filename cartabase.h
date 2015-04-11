@@ -6,7 +6,7 @@ public:
 	int *i_numTotalDeCartas;
 
 	cartabase();
-	cartabase(std::string&, int&);
+	cartabase(std::string*, int*);
 	~cartabase();
 };
 
