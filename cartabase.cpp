@@ -1,6 +1,6 @@
 #include "cartabase.h"
 #include "headers.h"
-
+LLuquillas
 cartabase::cartabase()
 {
 	this->s_color = new std::string("");
