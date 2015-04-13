@@ -6,7 +6,8 @@ public:
 	int *i_numTotalDeCartas;
 
 	cartabase();
-	cartabase(std::string*, int*);
+	void setColor(std::string);
+	void setNum(int);
 	~cartabase();
 };
 

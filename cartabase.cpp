@@ -6,15 +6,14 @@ cartabase::cartabase()
 	this->s_color = new std::string("");
 	this->i_numTotalDeCartas = new int(0);
 }
-
-cartabase::cartabase(std::string *s_color = new std::string(""), int *i_numTotalDeCartas = new int(0))
-{
-	this->s_color = new std::string(&s_color);
-	this->i_numTotalDeCartas = i_numTotalDeCartas = new int(&i_numTotalDeCartas);
+void cartabase::setColor(std::string color){
+	this->s_color = new std::string (color);
+}
+void cartabase::setNum(int Numero){
+	this->i_numTotalDeCartas = new int(Numero);
 }
 cartabase::~cartabase()
 {
 	delete s_color;
 	delete i_numTotalDeCartas;
 }
-lucas se la come
